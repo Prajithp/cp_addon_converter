@@ -1,7 +1,11 @@
 cp_addon_converter
 ==================
 
-This is small perl script for converting cpanel addon domain to main domain
+This is a small perl script for converting cpanel addon domain to main domain.
+
+Note:
+- You will have to create the DB's and users manually once the conversion is complete.
+Also you will have replace the old mysql connection strings from the web scripts.
 
 ```bash
 root@server1 [~]# perl convert_addon.pl 
