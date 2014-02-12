@@ -506,7 +506,7 @@ sub verify_inputs {
       exit 1;
     }
     if ( Cpanel::AcctUtils::accountexists($user) ) {
-      print "Sorry, the new user $user already exists on this system, Please choode another username\n";
+      print "Sorry, the new user $user already exists on this system, Please choose another username\n";
       exit(1);
     }
     if ( Cpanel::Validate::Username::group_exists($user) ) {
@@ -572,9 +572,9 @@ cPanel Addon converter comes with ABSOLUTELY NO WARRANTY. This is free software,
 Copyright 2013-2014 - Prajith P, http://www.prajith.in/
 #################################################################################################
   };
-  print "\nThe script will copy allmost all files related to the addon domain except mysql databases and privileges\n";
-  print "Please copy the mysql databases and privileges manually and restore it later\n";
-  print "once you restored the cpmove archive, please change the domain package from WHM\n\n";
+  print "\nThe script will copy almost all files related to the addon domain except mysql databases and privileges\n";
+  print "Please copy the mysql databases and database users manually and restore it once complete\n";
+  print "Once you have restored the cpmove archive, please change the domain package/owner from WHM\n\n";
   
   print BOLD WHITE "\n\n[+] Initializing Script" . RESET . "\n\n\n";
   print BOLD WHITE "[ Press [ANY KEY] to continue, or [CTRL]+C to stop ]" . RESET "\n\n";
