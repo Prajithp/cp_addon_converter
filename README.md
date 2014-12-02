@@ -13,10 +13,10 @@ Usage:
 convert_addon.pl --addon_domain=<addon_domain_name> --main_user=<main cpanel username>  --addon_user=<new domain username> --addon_pass=<new domain password>
 
 requird options
---addon_domain: specify the addon domain name which you want to conver
---main_user   : specify the usename of the addon domain
---addon_user  : specify the new account username
---addon_pass  : specify the password for new account
+--addon_domain: specify the addon domain name which you want to convert
+--main_user   : Usename of the addon domain
+--addon_user  : new cpanel username
+--addon_pass  : cpanel password
 
 optional
 -V   : print script version
