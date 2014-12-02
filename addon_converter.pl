@@ -548,9 +548,9 @@ sub usage {
     print "$0 --addon_domain=<addon_domain_name> --main_user=<main cpanel username>  --addon_user=<new domain username> --addon_pass=<new domain password>\n\n";
     print "requird options\n";
     print "--addon_domain: specify the addon domain name which you want to conver\n";
-    print "--main_user   : specify the usename of the addon domain\n";
-    print "--addon_user  : specify the new account username\n";
-    print "--addon_pass  : specify the password for new account\n\n";
+    print "--main_user   : current usename of the addon domain\n";
+    print "--addon_user  : new cpanel username\n";
+    print "--addon_pass  : cpanel password\n\n";
     print "optional\n";
     print "-V   : print script version\n";
     print "-h   : print this help message and exit\n";
